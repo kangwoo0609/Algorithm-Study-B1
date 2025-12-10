@@ -1,6 +1,7 @@
 '''
 문제: https://www.acmicpc.net/problem/20924
-접근: 
+접근: 기가 노드가 나올 때까지 trunk bfs, 기가 노드 이후에는 branch bfs
+처음에는 branch를 dfs로 구현했는대, recursion error 떠서 그냥 bfs로 구현함
 
 시간복잡도:
 '''
